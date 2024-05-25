@@ -1,4 +1,3 @@
-//Written by Maggie Jiang, Jian0886
 public class LinkedList<T extends Comparable<T>> implements List<T> {
     private Node<T> head;
     private int size;           //Create a variable to keep track of linkedlist size
