@@ -1,19 +1,7 @@
-/**
- * Updated by S.M. on 10.24.2023.
- *
- * @param <T> Generic type for the list interface.
- */
+
 public interface List<T extends Comparable<T>> {
 
-  /**
-   * Add an element to end of the list. If element is null,
-   * it will NOT add it and return false.  Otherwise, it
-   * will add it and return true. Updates isSorted to false if
-   * the element added breaks sorted order.
-   *
-   * @param element element to be added to the list.
-   * @return if the addition was successful.
-   */
+
   boolean add(T element);
 
   /**
